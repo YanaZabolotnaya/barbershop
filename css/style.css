@@ -1,0 +1,392 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "ProximaNovaCond";
+    src: url("../fonts/proximanovacond.otf");
+    font-style: normal;
+}
+@font-face {
+    font-family: "SlimTony";
+    src: url("../fonts/SlimTony.otf");
+    font-style: normal;
+}
+@font-face {
+    font-family: "Born";
+    src: url("../fonts/Born.otf");
+    font-style: normal;
+}
+@font-face {
+    font-family: "proximanova-regular";
+    src: url("../fonts/proximanova-regular.otf");
+    font-style: normal;
+}
+@font-face {
+    font-family: "azedo";
+    src: url("../fonts/azedo.ttf");
+    font-style: normal;
+}
+.clear::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+.contant {
+	width: 1200px;
+	margin: 0 auto;
+}
+.title {
+	font-family: 'ProximaNova', sans-serif;
+	color:  #212121;
+	font-size: 23.99px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	text-transform: uppercase;
+	background: #fff;
+	border-bottom: 2px solid #ffdc19;
+	width: 1200px;
+	margin: 100px 0 50px 0;
+	padding-bottom: 20px;
+} 
+body {
+    font-family: 'Born', 'Arial', sans-serif;
+}
+
+/*..............HEADER..............*/
+
+.header {
+	background-color:  #fff;
+	height: 90px;
+	display: block;
+} 
+.top-logo {
+	float: left;
+}
+.top_slogan {
+	padding: 33px 0;
+}
+.top-menu {
+	padding-top: 23px;
+}
+.top-menu ul {
+	list-style: none;
+}
+.top-menu ul li {
+	float: right;
+	padding: 0 10px;
+}
+.top-menu a {
+	height: 24px;
+	line-height: 24px;
+	font-family: 'ProximaNova';
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: left;
+	color:  #212121;
+}
+/*............../HEADER..............*/
+
+/*..............MAIN..............*/
+/*section MAIN_PICTURE*/
+.main_picture {
+	background-color: transparent;
+	background-image: url("../images/main_image.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	height: 700px;
+}
+.main_picture h1 {
+  height: 350px;
+  width: 442px;
+	font-family: 'ProximaNovaCond';
+	color:  #fff;
+	font-size: 64.01px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	position: absolute;
+	top: 257px;
+	right: 444px;
+}
+.main_picture h1 .barbershop {
+	font-family: 'SlimTony';
+	color:  #fff;
+	font-size: 89.68px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+}
+.picture_position {
+	position: relative;
+}
+
+/*block ABOUT*/
+.about {
+	display: block;
+}
+.about .item_about {
+	width: 30%;
+	display: block;
+	float: left;
+	margin-right: 60px;
+	margin-bottom: 95px;
+}
+.about .item_about .quotes {
+	margin-bottom: 20px;
+}
+.about .item_about .modlogan {
+	margin: 0;
+	font-family: 'ProximaNovaCond';
+	color:  #212121;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 50px;
+	text-align: left;
+	text-transform: uppercase;
+}
+.about .text_about_us {
+	font-family: 'Born';
+	font-size: 16px;
+	font-weight: 400;
+	color: #595959;
+	line-height: 26px;
+	text-align: left;
+}
+.about .text_about_us .about_text1 {
+	width: 30%;
+	float: left;
+}
+.about .text_about_us .about_text2 {
+	width: 30%;
+	float: right;
+}
+.about .text_about_us p {
+	margin: 0;
+}
+.about .image_man {
+	position: relative;
+	background-color: transparent;
+	background-image: url("../images/SplitShire.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	height: 582px;
+}
+.slogan_rotate {
+	float: right;
+  transform-origin: bottom right 0;
+  transform: rotate(-90deg);
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.about .image_man .slogan {
+	margin-bottom: 20px;
+	font-family: 'ProximaNovaCond';
+	font-size: 47.86px;;
+	color:  #ffffff;
+	font-weight: 700;
+	line-height: 50px;
+	text-transform: uppercase;
+	background-color: transparent;
+}
+.about .image_man .slogan_yellow {
+	margin: 0;
+	border: 5px solid #ffdc19;
+	width: 70px;
+}
+
+/*block SERVICES*/
+.item_price {
+	display: block;
+}
+.item_price .in_the_price {
+	width: 239px;
+	float: left;
+	margin-right: 64px;
+	max-height: 300px;
+  overflow: hidden;
+}
+.item_price .in_the_price:last-child {
+	width: 260px;
+	margin-right: 0;
+}
+.item_price .in_the_price h3 {
+	font-family: 'ProximaNova'; 
+	color:  #212121;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 52px;
+	text-align: left;
+	margin: 0;
+}
+.item_price .in_the_price .haircut {
+	width: 150px;
+}
+.item_price .in_the_price .shave {
+	width: 130px;
+}
+.item_price .in_the_price h3 .cost {
+	font-family: 'ProximaNovaCond';
+	color:  #212121;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 52px;
+	text-align: left;
+}
+.item_price .in_the_price .beard_style, .special_haircut {
+	width: 260px;
+}
+.item_price .in_the_price .text_price {
+	font-family: 'Born';
+	max-height: 133px;
+  overflow: hidden;
+  color:  #595959;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	margin: 15px 0 0 0;
+}
+
+/*block RESERVATIONS*/
+.block_reservations {
+	display: block;
+}
+.block_reservations .form_main {
+	float: left;
+}
+.block_reservations .form_main .form {
+	width: 384px;
+	height: 54px;
+	font-family: 'Born';
+	color:  #595959;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	border: 1px solid #dfdfdf;
+	box-sizing: border-box;
+	background-color:  rgba(255, 180, 51, 0);
+	padding: 15px;
+	margin-bottom: 30px;
+	margin-right: 40px;
+}
+.block_reservations .form_main .submit {
+	width: 192px;
+	height: 54px;
+	font-family: 'ProximaNovaCond';
+	color:  #ffffff;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 50px;
+	background-color:  #ffdc19;
+	text-transform: uppercase;
+	border: 0;
+	margin-bottom: 100px;
+}
+.block_reservations .additional {
+	float: right;
+}
+.block_reservations .additional .comment {
+	width: 776px;
+	height: 306px;
+	font-family: 'Born';
+	color:  #595959;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	border: 1px solid #dfdfdf;
+	box-sizing: border-box;
+	background-color:  rgba(255, 180, 51, 0);
+	padding: 15px;
+}
+
+/*block MAP*/
+.map {
+	height: 582px;
+	position: relative;
+	background-color: transparent;
+	background-image: url("../images/map.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.block_adress {
+	background-color:  #ffffff;
+	box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.21);
+	width: 202px;
+	height: 173px;
+}
+.block_adress .title_barberking {
+	font-family: 'Azedo';
+	color:  #212121;
+	font-size: 34px;
+	font-weight: 700;
+	line-height: 24px;
+	padding: 15px 25px 20px 20px;
+	margin: 0;
+}
+.block_adress .address {
+	font-family: 'Born';
+	color:  #595959;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding: 0 25px 20px 20px;
+	margin: 0;
+}
+.map_positions {
+	position: absolute;
+	top: 134px;
+	left: 640px;
+}
+.map_positions .triangle_adress {
+	border-right: 20px solid transparent;
+	border-left: 20px solid transparent;
+	border-top: 20px solid #fff;
+	margin: 0 auto;
+}
+/*..............MAIN..............*/
+
+/*..............FOOTER..............*/
+.footer {
+	background-color: #212121;
+	height: 90px;
+	display: block;
+}
+.footer .footer_logo {
+	float: left;
+}
+.footer_slogan {
+	padding: 33px 0;
+}
+.footer-menu {
+	padding-top: 23px;
+}
+.footer-menu ul {
+	list-style: none;
+}
+.footer-menu ul li {
+	float: right;
+  padding: 0 10px;
+}
+.footer-menu a {
+	height: 24px;
+  line-height: 24px;
+	font-family: 'ProximaNova';
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: left;
+	color:  #ffffff;
+}
+/*............../FOOTER..............*/
+
+    
+
+
